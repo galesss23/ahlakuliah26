@@ -1,0 +1,39 @@
+{
+  "name": "emye-edu---ujian-online",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server.ts",
+    "build": "vite build",
+    "start": "NODE_ENV=production tsx server.ts",
+    "preview": "vite preview",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "@supabase/supabase-js": "2.39.7",
+    "@tailwindcss/vite": "^4.2.4",
+    "express": "^4.19.2",
+    "file-saver": "^2.0.5",
+    "firebase": "^12.6.0",
+    "html2canvas": "1.4.1",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^5.0.7",
+    "jszip": "^3.10.1",
+    "lucide-react": "^0.555.0",
+    "motion": "^12.34.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "recharts": "^3.7.0",
+    "tailwindcss": "^4.2.4",
+    "tsx": "^4.21.0",
+    "xlsx": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

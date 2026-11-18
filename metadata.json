@@ -1,0 +1,8 @@
+{
+  "name": "Remix Emye Edu - Ujian Online",
+  "description": "Sistem Computer Based Test (CBT) Emye Edu dengan fitur keamanan anti-cheat, integrasi AI, dan dashboard admin.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
